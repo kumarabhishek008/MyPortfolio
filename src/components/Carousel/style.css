@@ -4,10 +4,10 @@
 .carousel-item.active{
      display: flex !important;
      justify-content: center;
-     max-height: 25rem;
+     max-height: 30rem;
 }
 .carousel-item{
      display: flex;
      justify-content: center;
-     max-height: 25rem;
+     max-height: 30rem;
 }
