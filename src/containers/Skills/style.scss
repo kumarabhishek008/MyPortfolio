@@ -1,0 +1,16 @@
+#skills{
+     .skills-header{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+     }
+          .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               .MuiPaper-elevation1 {
+                    width:15rem
+               }
+           }
+}

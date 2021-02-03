@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/kumarabhishek008/MyPortfolio#readme",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "bootstrap": "^4.6.0",
     "moment": "^2.29.1",
     "react": "^17.0.1",

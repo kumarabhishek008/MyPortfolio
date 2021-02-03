@@ -17,7 +17,7 @@ const Introduction = () => {
           }
      ]
      return (
-          <div>
+          <div id='intoduction'>
                <Carousel images={images}/>
           </div>
      )
