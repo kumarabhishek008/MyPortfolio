@@ -1,0 +1,13 @@
+.w-100{
+     object-fit: cover;
+}
+.carousel-item.active{
+     display: flex !important;
+     justify-content: center;
+     max-height: 25rem;
+}
+.carousel-item{
+     display: flex;
+     justify-content: center;
+     max-height: 25rem;
+}
