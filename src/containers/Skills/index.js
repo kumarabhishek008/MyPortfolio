@@ -3,7 +3,7 @@ import "./style.scss";
 import { makeStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-import Paper from '@material-ui/core/Paper';
+import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,22 +34,24 @@ const skill = [
   "NodeJS",
 ];
 const Skills = (props) => {
-     const classes = useStyles();
+  const classes = useStyles();
   return (
     <div id="skills">
-      <div className="skills-header">
-        <h1>Skills</h1>
-      </div>
-      <div className={classes.root}>
-        <Grid container spacing={3}>
-          {skill.map((items) => (
-            <Grid item xs={4}>
-              <Paper className={classes.paper} color='secondary'>
-                {items}
-              </Paper>
-            </Grid>
-          ))}
-        </Grid>
+      <div className="container">
+        <div className="skills-header">
+          <h1>Skills</h1>
+        </div>
+        <div className={classes.root}>
+          <Grid container spacing={3}>
+            {skill.map((items, i) => (
+              <Grid item xs={4} key={i}>
+                <Paper className={classes.paper} color="secondary">
+                  {items}
+                </Paper>
+              </Grid>
+            ))}
+          </Grid>
+        </div>
       </div>
     </div>
   );

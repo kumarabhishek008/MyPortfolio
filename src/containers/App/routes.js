@@ -3,6 +3,7 @@ import Introduction from "../Introduction/index";
 import Projects from "../Projects/index";
 import Skills from "../Skills/index";
 import About from "../About/index";
+import Footer from '../Footer/index';
 /** Import BrowseRouter */
 import { Route, Switch, Redirect } from "react-router-dom";
 
@@ -23,6 +24,10 @@ const config = [
     path: "/about",
     component: (props) => <About {...props} />,
   },
+  {
+    path: "/footer",
+    component: (props) => <Footer {...props} />,
+  },
 ];
 
 const AppRoutes = (props) => {
@@ -40,9 +45,10 @@ const AppRoutes = (props) => {
                     }
                </Switch> */}
       <Introduction {...props} />
-      {/* <About {...props} /> */}
+      <About {...props} />
       <Projects {...props} />
       <Skills {...props} />
+      <Footer {...props} />
     </>
   );
 };

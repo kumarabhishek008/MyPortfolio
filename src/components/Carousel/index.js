@@ -1,16 +1,16 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import './style.css';
+import './style.scss';
 const CommonCarousel = (props) => {
      const {images} = props;
   return (
     <div>
       <Carousel>
           {
-               images && images.map((items)=>               
-               <Carousel.Item interval={1000000}>
+               images && images.map((items,i)=>               
+               <Carousel.Item interval={1000000} key={i}>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 "
                     src={items.imgSrc}
                     />
                     <Carousel.Caption>

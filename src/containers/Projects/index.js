@@ -32,8 +32,9 @@ const Projects = () => {
       </div>
       <div className='project-cards'>
            {
-                projects.map((items)=>                
+                projects.map((items, i)=>                
                 <Cards
+                key={i}
                   imgSrc={items.img}
                   header={items.header}
                   description={items.description}

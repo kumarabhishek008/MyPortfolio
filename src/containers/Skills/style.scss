@@ -1,16 +1,27 @@
 #skills{
-     .skills-header{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 2rem;
+     margin-top: 3rem;
+     padding: 3rem;
+     background: #F3FAFE;
+     .container{
+          max-width: 1440px;
+          margin: auto;
+          .skills-header{
+               margin: auto;
+               width: fit-content;
+               padding: 2rem;
+          }
+               .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .MuiPaper-elevation1 {
+                         width:15rem;
+                         transition: 1s;
+                         &:hover{
+                              transform: scale(1.01, 1.01);
+                              box-shadow: 8px 8px 25px #d3d5d6;
+                         }
+                    }
+                }
      }
-          .MuiGrid-spacing-xs-3 > .MuiGrid-item {
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               .MuiPaper-elevation1 {
-                    width:15rem
-               }
-           }
 }

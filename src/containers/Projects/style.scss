@@ -1,4 +1,6 @@
 #projects{
+     max-width: 1440px;
+     margin: auto;
      .project-header{
           display: flex;
           justify-content: center;
@@ -14,9 +16,14 @@
           justify-content: space-evenly;
           align-items: center;
           margin-top: 1rem;
-          .makeStyles-root-1 {
+          .makeStyles-root-7 {
                max-width: 220px;
                max-height: 250px;
+               transition: 1s;
+               &:hover{
+                    transform: scale(1.03, 1.03);
+                    box-shadow: 8px 8px 25px #d3d5d6;
+               }
                p{
                     height: 2.5rem;
                     overflow: hidden;
