@@ -4,16 +4,16 @@
 .carousel-item.active{
      display: flex !important;
      justify-content: center;
-     max-height: 30rem;
+     // max-height: 30rem;
      img{
-          max-height: 30rem;
+          max-height: 50rem;
      }
 }
 .carousel-item{
      display: flex;
      justify-content: center;
-     max-height: 30rem;
+     // max-height: 30rem;
      img{
-          max-height: 30rem;
+          max-height: 50rem;
      }
 }
