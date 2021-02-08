@@ -20,10 +20,10 @@ const HeaderNav = (props) => {
   };
   return (
     <>
-      <Navbar bg="primary" variant="dark">
+      <Navbar bg="primary" variant="dark" sticky="top">
         <Navbar.Brand href="#home">Abhishek Kumar</Navbar.Brand>
         <Nav className="justify-content-center">
-          <Nav.Link href="#">Home</Nav.Link>
+          <Nav.Link href="#intoduction">Home</Nav.Link>
           <Nav.Link href="#intoduction">Introduction</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
