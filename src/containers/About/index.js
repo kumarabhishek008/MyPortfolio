@@ -21,7 +21,6 @@ const About = (props) => {
      const classes = useStyles();
   return (
     <div id='about'>
-
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>
@@ -32,7 +31,7 @@ const About = (props) => {
               <h1>About</h1>
             </div>
             <div className='description'>
-              I am Frontend Developer. I have worked on many projects 
+            I am a Frontend Developer in Reactjs .If you want stunning web application in React js then you are at the right place. I’m a professional front end web developer who has done multiple projects . I can do front end web development in React js with Redux.
             </div>
             <div className='actions' color='primary'>
               <Button>Profile</Button>

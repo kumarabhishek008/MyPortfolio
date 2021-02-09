@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
      mode: 'development',
+     devtool: 'source-map',
      entry: './src/index.js',
      output: {
           path: path.resolve(__dirname, "build")
@@ -17,7 +18,7 @@ module.exports = {
           rules: [
             {
               test: /\.(sa|sc|c)ss$/,
-              use: ["style-loader","css-loader","postcss-loader","sass-loader"]
+              use: ["style-loader","css-loader","sass-loader"]
             },
             {
               test: /\.(png|jpe?g|gif)$/i,

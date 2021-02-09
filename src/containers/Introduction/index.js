@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from '../../components/Carousel/index';
-import Image1 from '../../utils/images/1.JPG';
+import Image1 from '../../utils/images/4.JPG';
 import Image2 from '../../utils/images/2.JPG';
 import Image3 from '../../utils/images/3.JPG';
 

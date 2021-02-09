@@ -11,22 +11,27 @@ const projects = [
           img : image1,
           header : 'Github Profile',
           description : 'It was first projects fetched github profiles using github api',
+          link:'https://github.com/kumarabhishek008/github-profiles.git'
      },
      {
           img : image2,
           header : 'Html Builder',
           description : 'HTML landing page builder using grapes js',
+          link:'https://grapesjs.com/'
      },
      {
           img : image3,
           header : 'Grorapid',
           description : 'A large scale webapp for B2B customer',
+          link:'https://portal.grorapid.com/'
      }
 ]
 
 const Projects = () => {
   return (
     <div id="projects">
+         <div className='container'>
+
       <div className="project-header">
         <h1>Projects</h1>
       </div>
@@ -35,13 +40,15 @@ const Projects = () => {
                 projects.map((items, i)=>                
                 <Cards
                 key={i}
-                  imgSrc={items.img}
-                  header={items.header}
-                  description={items.description}
+                imgSrc={items.img}
+                header={items.header}
+                description={items.description}
+                link={items.link}
                 />
                 )
-           }
+               }
       </div>
+     </div>
     </div>
   );
 };

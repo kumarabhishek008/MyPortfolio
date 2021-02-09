@@ -19,11 +19,11 @@ const useStyles = makeStyles({
    
 
 const Cards = (props) => {
-     const { header, description, imgSrc } = props;
+     const { header, description, imgSrc, link } = props;
      const classes = useStyles();
   return (
     <>
-    <Card className={classes.root}>
+    <Card className={classes.root} onClick={()=>{ window.location = link}}>
       <CardActionArea>
         <CardMedia
           className={classes.media}

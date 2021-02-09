@@ -25,12 +25,14 @@ const HeaderNav = (props) => {
         <Nav className="justify-content-center">
           <Nav.Link href="#intoduction">Home</Nav.Link>
           <Nav.Link href="#intoduction">Introduction</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
-          <FormControlLabel
+          <Nav.Link href="#footer-section">Contact</Nav.Link>
+          {/* <FormControlLabel
           control={<Switch checked={state.gilad} onChange={handleChange} name="gilad" />}
           label="Dark Mode"
-        />
+        /> */}
         </Nav>
       </Navbar>
     </>
