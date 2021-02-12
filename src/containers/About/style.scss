@@ -1,5 +1,6 @@
 #about{
-     background: #EAD8FF;
+     background: linear-gradient((to right,#ece4f5,white));
+     
      .container{
           width: 1440px;
           margin: auto;
@@ -16,7 +17,7 @@
           .about-header-description{
                display: flex;
                flex-direction: column;
-               justify-content: flex-start;
+               justify-content: center;
           }
       }
 }
