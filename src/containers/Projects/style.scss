@@ -1,5 +1,9 @@
 #projects {
-     background : #F3FAFE;
+    //  background :linear-gradient(to right,#a8daf7, #fff) ;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
      .container {
        max-width: 1440px;
        margin: auto;
