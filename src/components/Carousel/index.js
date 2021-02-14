@@ -5,7 +5,7 @@ const CommonCarousel = (props) => {
      const {images} = props;
   return (
     <div>
-      <Carousel>
+      <Carousel className='carousel slide carousel-fade'>
           {
                images && images.map((items,i)=>               
                <Carousel.Item interval={1000000} key={i}>

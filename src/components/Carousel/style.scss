@@ -5,7 +5,8 @@
      display: flex !important;
      justify-content: center;
      // max-height: 30rem;
-     transition: 500ms ;
+     transition: 5000ms ;
+     transition-property: opacity;
      img{
           max-height: 44rem;
      }
