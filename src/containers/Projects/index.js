@@ -2,25 +2,22 @@ import React from "react";
 import { Button } from "@material-ui/core";
 import Cards from "../../components/Card/Cards";
 import './style.scss';
-import image1 from '../../utils/images/1.JPG';
-import image2 from '../../utils/images/2.JPG';
-import image3 from '../../utils/images/3.JPG';
 
 const projects = [
      {
-          img : image1,
+          img : 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-fd52a.appspot.com/o/MyImages%2F1.JPG?alt=media&token=bc6b8a07-5696-49c7-88f3-c24c68783150',
           header : 'Github Profile',
           description : 'It was first projects fetched github profiles using github api',
           link:'https://github.com/kumarabhishek008/github-profiles.git'
      },
      {
-          img : image2,
+          img : 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-fd52a.appspot.com/o/MyImages%2F3.JPG?alt=media&token=09b1277b-c0b0-4e25-882f-72572ba65261',
           header : 'Html Builder',
           description : 'HTML landing page builder using grapes js',
           link:'https://grapesjs.com/'
      },
      {
-          img : image3,
+          img : 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-fd52a.appspot.com/o/MyImages%2F2.JPG?alt=media&token=f4d5e54e-a8e5-46e5-969c-c559e4554475',
           header : 'Grorapid',
           description : 'A large scale webapp for B2B customer',
           link:'https://portal.grorapid.com/'

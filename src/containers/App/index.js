@@ -4,7 +4,7 @@ import HeaderNav from '../../components/Header/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.scss';
 import { useLocation, useHistory } from 'react-router-dom';
-
+import Context from '../../utils/context';
 class ErrorBoundary extends React.Component {
      constructor(props) {
        super(props);
@@ -40,7 +40,9 @@ const App = (props) => {
           <div className='main_app_container'>
                <ErrorBoundary>
                     <HeaderNav/>
-                    <AppRoutes {...props} loaction={location} history={history}/>
+                    <Context>
+                      <AppRoutes {...props} loaction={location} history={history}/>
+                    </Context>
                </ErrorBoundary>
           </div>
      )
