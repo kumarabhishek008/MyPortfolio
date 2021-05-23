@@ -1,0 +1,27 @@
+#about{
+     background: linear-gradient((to right,#e9e6ec,white));
+     height: 32rem;
+     .container{
+          width: 1440px;
+          margin: auto;
+          padding: 3rem;
+          img{
+               max-width: 500px;
+               border-radius: 5px;
+               box-shadow: -1px -6px 16px rgb(80 66 66 / 65%);
+               transition: 1000ms;
+               &:hover{
+                    transform: scale(1.1, 1.1);
+               }
+          }
+          .about-header-description{
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               padding-left: 7rem;
+               h5{
+                    color: rgb(168, 167, 167);
+               }
+          }
+      }
+}

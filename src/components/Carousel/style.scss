@@ -1,0 +1,22 @@
+.w-100{
+     object-fit: cover;
+}
+.carousel-item.active{
+     display: flex !important;
+     justify-content: center;
+     // max-height: 30rem;
+     transition: 5000ms ;
+     transition-property: opacity;
+     img{
+          max-height: 44rem;
+     }
+}
+.carousel-item{
+     display: flex;
+     justify-content: center;
+     // max-height: 30rem;
+     transition: 500ms ;
+     img{
+          max-height: 44rem;
+     }
+}
