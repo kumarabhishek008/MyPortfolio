@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import './style.scss';
+import Typewriter from 'typewriter-effect';
+
 const CommonCarousel = (props) => {
      const {images} = props;
   return (
@@ -14,7 +16,13 @@ const CommonCarousel = (props) => {
                     src={items.imgSrc}
                     />
                     <Carousel.Caption>
-
+                    <Typewriter
+                        options={{
+                          strings: [items.text],
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
                     </Carousel.Caption>
                </Carousel.Item>
                )

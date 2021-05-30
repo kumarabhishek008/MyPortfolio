@@ -7,7 +7,7 @@ import './index.scss'
 
 function App() {
     const [state, setState] = useState("CLICK ME");
-
+    console.log(process.env.DB_HOST);
     return (
          <NewApp/>
     )

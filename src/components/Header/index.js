@@ -7,20 +7,9 @@ const HeaderNav = (props) => {
   const [state, setState] = React.useState({
     gilad: false,
   });
-  const handleChange = (event) => {
-    setState({ ...state, [event.target.name]: event.target.checked });
-    if(event.target.checked){
-      document.body.style.background = '#272424b0';
-      document.getElementsByTagName('nav').style.background = '#272424b0';
-    }
-    else{
-      document.body.style.background = 'none';
-      document.getElementsByTagName('nav').style.background = 'grey';
-    }
-  };
   return (
     <>
-      <Navbar bg="primary" variant="dark" sticky="top">
+      <Navbar bg="info" variant="dark" sticky="top">
         <Navbar.Brand href="#home">Abhishek Kumar</Navbar.Brand>
         <Nav className="justify-content-center">
           <Nav.Link href="#intoduction">Home</Nav.Link>

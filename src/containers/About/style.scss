@@ -1,6 +1,12 @@
 #about{
-     background: linear-gradient((to right,#e9e6ec,white));
-     height: 32rem;
+     background-image: url('https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
      .container{
           width: 1440px;
           margin: auto;
@@ -14,13 +20,23 @@
                     transform: scale(1.1, 1.1);
                }
           }
+          .header{
+               h2{
+                    color: white;
+                    font-size: 24px;
+                    line-height: 24px;
+               }
+          }
           .about-header-description{
                display: flex;
                flex-direction: column;
                justify-content: center;
-               padding-left: 7rem;
+               padding-left: 3rem;
                h5{
-                    color: rgb(168, 167, 167);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    color: rgb(255, 255, 255);
                }
           }
       }

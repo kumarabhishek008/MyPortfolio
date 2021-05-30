@@ -40,7 +40,7 @@ const About = (props) => {
           </div>
           <div  className='col-md-6 about-header-description'>
             <div className='header'>
-              <h1>About</h1>
+              <h2>About</h2>
             </div>
             <div className='description'>
               <h5>

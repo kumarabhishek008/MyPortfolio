@@ -1,6 +1,13 @@
 .w-100{
      object-fit: cover;
 }
+.carousel{
+     position: relative;
+}
+.carousel-caption{
+     position: absolute;
+     top: 40vh;
+}
 .carousel-item.active{
      display: flex !important;
      justify-content: center;
@@ -8,7 +15,12 @@
      transition: 5000ms ;
      transition-property: opacity;
      img{
-          max-height: 44rem;
+          height: 100vh;
+     }
+     .Typewriter{
+          font-size: 3rem;
+          color: white;
+          background-color: transparent;
      }
 }
 .carousel-item{
@@ -17,6 +29,7 @@
      // max-height: 30rem;
      transition: 500ms ;
      img{
-          max-height: 44rem;
+          height: 100vh;
+          object-fit: cover;
      }
 }

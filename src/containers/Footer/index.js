@@ -41,7 +41,7 @@ const Footer = (props) => {
           >
             <InstagramIcon color="" />
           </div>
-          <div className=" links" title={SOCIAL_PROFILES.GMAIL}>
+          <div className=" links" title={SOCIAL_PROFILES.GMAIL} onClick={()=>{window.location.href = `mailto:${SOCIAL_PROFILES.GMAIL}`}}>
             <EmailIcon color="" />
           </div>
           <div

@@ -39,7 +39,7 @@ const Skills = (props) => {
     <div id="skills">
       <div className="container">
         <div className="skills-header">
-          <h1>Skills</h1>
+          <h2>Skills</h2>
         </div>
         <div className={classes.root}>
           <Grid container spacing={3}>

@@ -5,3 +5,4 @@
 *.ali
 #ignore nodemodules
 node_modules
+.env
