@@ -76,7 +76,7 @@ module.exports = {
         id: 'G-0TS20NZNVT' // Please remove this and use your own tag id
     },
     themeConfig: {
-        default: 'light',
+        default: 'dark',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
