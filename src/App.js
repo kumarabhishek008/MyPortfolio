@@ -165,7 +165,7 @@ function App() {
                             {/* DO NOT REMOVE/MODIFY THE FOOTER */}
                             <footer className="p-4 footer bg-base-200 text-base-content footer-center">
                                 <div>
-                                    <p className="font-mono text-sm">Made with <a className="text-primary" href="https://github.com/kumarabhishek008" target="_blank" rel="noreferrer">Abhishek</a> and ❤️</p>
+                                    <p className="font-mono text-sm">Made by <a className="text-primary" href="https://github.com/kumarabhishek008" target="_blank" rel="noreferrer">Abhishek</a></p>
                                 </div>
                             </footer>
                         </Fragment>
